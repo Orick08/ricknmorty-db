@@ -4,12 +4,7 @@ import Index from "./pages/Index";
 import Episodes from "./pages/Episodes";
 import Seassons from "./pages/Seassons";
 
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Routes,
-} from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
