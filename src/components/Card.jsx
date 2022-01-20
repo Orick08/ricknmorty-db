@@ -1,12 +1,12 @@
-import "./../App.css";
 import "bootstrap/dist/css/bootstrap.css";
+import "./../App.css";
 
-function Card() {
+function Card(props) {
   return (
     <div className="col">
       <div className="card border-dark mb-3">
         <div className="card-header">
-          <h5 className="card-title">Hello world</h5>
+          <h5 className="card-title">{props.title}</h5>
         </div>
         <img src="https://via.placeholder.com/150" className="card-img-top" />
         <div className="card-body">

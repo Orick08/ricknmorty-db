@@ -1,17 +1,17 @@
-import "./../App.css";
 import "bootstrap/dist/css/bootstrap.css";
+import "./../App.css";
 
 import Card from "../components/Card";
 
 function Index() {
   return (
     <div>
-      <h1>Index page</h1>
+      <hr className="my-5" />
       <div className="container">
         <div className="row row-cols-3 row-cols-md-3 g-4">
-          <Card />
-          <Card />
-          <Card />
+          <Card title="Seassons" />
+          <Card title="Episodes" />
+          <Card title="Characters" />
         </div>
       </div>
     </div>
