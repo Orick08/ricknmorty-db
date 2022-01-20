@@ -4,7 +4,7 @@ import "./../App.css";
 function Navbar() {
   return (
     <nav>
-      <h3>Logo</h3>
+      <h3>Rick & Morty site</h3>
       <ul className="nav-links">
         <Link to="/">
           <li>Index</li>
