@@ -8,7 +8,7 @@ function Card(props) {
         <div className="card-header">
           <h5 className="card-title">{props.title}</h5>
         </div>
-        <img src="https://via.placeholder.com/150" className="card-img-top" />
+        <img src="https://via.placeholder.com/150" className="img-fluid" />
         <div className="card-body">
           <p className="card-text">Just a quick example of cards</p>
         </div>
